@@ -1,11 +1,11 @@
 public class Main {
 
-    public void displayGreeting() {
-        System.out.println("Hello SE1702. Today is Wednesday.");
-    
+    public void displayGreeting(String message) {
+        System.out.println(message);
     }
+    
     public static void main(String[] args) {
-        new Main().displayGreeting();
+        new Main().displayGreeting("Hello SE1702. Today is Wednesday.");
     }
     
 }
