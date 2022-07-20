@@ -10,4 +10,8 @@
  */
 public class Book {
     
+    public Book() {
+        super();
+    }
+    
 }
